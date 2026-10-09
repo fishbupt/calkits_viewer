@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CalKitSave xmlns="urn:synthetic-calkit-demo">
+  <CalKitLabel>Demo 3.5 mm Calibration Kit</CalKitLabel>
+  <CalKitVersion>1.0</CalKitVersion>
+  <CalKitDescription>Synthetic schema fixture; not a calibration reference</CalKitDescription>
+  <DatabaseType>User</DatabaseType>
+  <ConnectorList>
+    <Coaxial>
+      <Family>3.5 mm</Family>
+      <Label>3.5 mm Male</Label>
+      <Gender>Male</Gender>
+      <SystemZ0>50</SystemZ0>
+      <MinimumFrequencyHz>1000000</MinimumFrequencyHz>
+      <MaximumFrequencyHz>26500000000</MaximumFrequencyHz>
+    </Coaxial>
+  </ConnectorList>
+  <FrequencyLists>
+    <Name>Segments 1</Name>
+    <Stimulus>
+      <Segments>
+        <Arbitrary>
+          <Base64Data>AAAAAGXNzUEAAAAAZc3dQQAAAMALWuZB</Base64Data>
+        </Arbitrary>
+      </Segments>
+    </Stimulus>
+  </FrequencyLists>
+  <StandardList>
+    <Standard>
+      <Label>Open</Label>
+      <StdType>Open</StdType>
+      <ConnectorName>3.5 mm</ConnectorName>
+      <Gender>Male</Gender>
+      <MinimumFrequencyHz>1000000</MinimumFrequencyHz>
+      <MaximumFrequencyHz>26500000000</MaximumFrequencyHz>
+      <Offset>
+        <OffsetDelay>30e-12</OffsetDelay>
+        <OffsetLoss>2.2e9</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+      <C0>50e-15</C0>
+    </Standard>
+    <Standard>
+      <Label>Short</Label>
+      <StdType>Short</StdType>
+      <ConnectorName>3.5 mm</ConnectorName>
+      <Gender>Male</Gender>
+      <MinimumFrequencyHz>1000000</MinimumFrequencyHz>
+      <MaximumFrequencyHz>26500000000</MaximumFrequencyHz>
+      <Offset>
+        <OffsetDelay>30e-12</OffsetDelay>
+        <OffsetLoss>2.2e9</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+      <L0>2e-12</L0>
+    </Standard>
+    <Standard>
+      <Label>Load</Label>
+      <StdType>Load</StdType>
+      <ConnectorName>3.5 mm</ConnectorName>
+      <Gender>Male</Gender>
+      <MinimumFrequencyHz>1000000</MinimumFrequencyHz>
+      <MaximumFrequencyHz>26500000000</MaximumFrequencyHz>
+      <Offset>
+        <OffsetDelay>30e-12</OffsetDelay>
+        <OffsetLoss>2.2e9</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+      <TerminalImpedance>50.2</TerminalImpedance>
+    </Standard>
+    <ThruStandard>
+      <Label>Thru</Label>
+      <StdType>Thru</StdType>
+      <ConnectorName>3.5 mm</ConnectorName>
+      <Gender>Male</Gender>
+      <MinimumFrequencyHz>1000000</MinimumFrequencyHz>
+      <MaximumFrequencyHz>26500000000</MaximumFrequencyHz>
+      <Offset>
+        <OffsetDelay>30e-12</OffsetDelay>
+        <OffsetLoss>2.2e9</OffsetLoss>
+        <OffsetZ0>50</OffsetZ0>
+      </Offset>
+    </ThruStandard>
+    <DataBasedStandard>
+      <Label>Thru Database</Label>
+      <MinimumFrequencyHz>1e9</MinimumFrequencyHz>
+      <MaximumFrequencyHz>3e9</MaximumFrequencyHz>
+      <Gender>Male</Gender>
+      <PortConnectorIDs>3.5 mm</PortConnectorIDs>
+      <PortConnectorIDs>3.5 mm</PortConnectorIDs>
+      <DataBasedArrays>
+        <ReceivePort>1</ReceivePort>
+        <SourcePort>1</SourcePort>
+        <Frequencies>
+          <Name>Segments 1</Name>
+        </Frequencies>
+        <Data>
+          <AgilentData>5Fz0nrpl+0y/lf13lVspcRehfdkOREmCGF9xHON5uMX6+X3Cu8zCby739J8nzKMn</AgilentData>
+        </Data>
+      </DataBasedArrays>
+      <DataBasedArrays>
+        <ReceivePort>2</ReceivePort>
+        <SourcePort>1</SourcePort>
+        <Frequencies>
+          <Name>Segments 1</Name>
+        </Frequencies>
+        <Data>
+          <AgilentData>5CvVVsh5fG4/uB4PS2ykkBfWgibxu7Z+mJ9xHON5uMX6gxNZHSV4AK4+D0tspJNB</AgilentData>
+        </Data>
+      </DataBasedArrays>
+      <DataBasedArrays>
+        <ReceivePort>1</ReceivePort>
+        <SourcePort>2</SourcePort>
+        <Frequencies>
+          <Name>Segments 1</Name>
+        </Frequencies>
+        <Data>
+          <Base64Data>ZmZmZmZm7j+amZmZmZmpvxSuR+F6FO4/exSuR+F6tL/D9Shcj8LtP5qZmZmZmbm/</Base64Data>
+        </Data>
+      </DataBasedArrays>
+      <DataBasedArrays>
+        <ReceivePort>2</ReceivePort>
+        <SourcePort>2</SourcePort>
+        <Frequencies>
+          <Name>Segments 1</Name>
+        </Frequencies>
+        <Data>
+          <Base64Data>uB6F61G4nj97FK5H4XqEP9nO91PjpZs/exSuR+F6dD+amZmZmZmZP/yp8dJNYnA/</Base64Data>
+        </Data>
+      </DataBasedArrays>
+      <AccuracyArrays>
+        <ReceivePort>1</ReceivePort>
+        <SourcePort>1</SourcePort>
+        <AccuracyData>
+          <Frequencies>
+            <Name>Segments 1</Name>
+          </Frequencies>
+          <CovarianceElement>
+            <Vr2>
+              <Base64Data>je21oPfGsD6N7bWg98awPo3ttaD3xrA+</Base64Data>
+            </Vr2>
+            <Vri>
+              <Base64Data>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Base64Data>
+            </Vri>
+            <Vi2>
+              <Base64Data>je21oPfGsD6N7bWg98awPo3ttaD3xrA+</Base64Data>
+            </Vi2>
+          </CovarianceElement>
+        </AccuracyData>
+      </AccuracyArrays>
+      <AccuracyArrays>
+        <ReceivePort>2</ReceivePort>
+        <SourcePort>1</SourcePort>
+        <AccuracyData>
+          <Frequencies>
+            <Name>Segments 1</Name>
+          </Frequencies>
+          <ScalarElement>
+            <Base64Data>/Knx0k1iUD/8qfHSTWJgP/p+arx0k2g/</Base64Data>
+          </ScalarElement>
+        </AccuracyData>
+      </AccuracyArrays>
+    </DataBasedStandard>
+  </StandardList>
+</CalKitSave>

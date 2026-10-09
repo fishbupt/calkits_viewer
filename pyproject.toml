@@ -1,0 +1,32 @@
+[project]
+name = "calkit-viewer"
+version = "0.2.0"
+description = "Keysight XKT CalKit parser and engineering desktop viewer"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["PyQt6>=6.5,<7", "matplotlib>=3.7,<4", "numpy>=1.24,<3"]
+
+[project.gui-scripts]
+xkt-viewer = "calkit_viewer.gui.app:main"
+
+[build-system]
+requires = ["hatchling>=1.26,<2"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/calkit_viewer"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10", "ruff>=0.8,<1"]
+build = ["pyinstaller>=6,<7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
