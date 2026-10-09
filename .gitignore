@@ -5,3 +5,7 @@ build/
 dist/
 *.log
 .ruff_cache/
+
+# PyCharm / JetBrains IDE project files
+.idea/
+*.iml
